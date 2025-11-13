@@ -1,8 +1,4 @@
-/
- * Creates and displays the HTML element for a single task.
- * @param {string} text - The description of the task.
- * @param {boolean} isCompleted - The current status of the task.
- */
+
 function createTaskElement(text, isCompleted) {
     const listItem = document.createElement('li');
     
@@ -28,9 +24,6 @@ function createTaskElement(text, isCompleted) {
 
 // --- LOCAL STORAGE FUNCTIONS ---
 
-/
- * Saves the current state of the tasks to Local Storage.
- */
 function saveTasks() {
     // Get all list items
     const tasks = [];
