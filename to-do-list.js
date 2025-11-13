@@ -2,7 +2,6 @@
 function createTaskElement(text, isCompleted) {
     const listItem = document.createElement('li');
     
-    // Set the completed class if needed (used when loading from storage)
     if (isCompleted) {
         listItem.classList.add('completed');
     }
