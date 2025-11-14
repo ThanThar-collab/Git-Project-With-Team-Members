@@ -5,7 +5,7 @@ const taskList = document.getElementById('task-list');
 
 // --- INITIAL LOAD ---
 // Load tasks from Local Storage when the page loads
-document.addEventListener('DOMContentLoaded', loadTasks);
+//document.addEventListener('DOMContentLoaded', loadTasks);
 
 // --- EVENT LISTENERS ---
 addButton.addEventListener('click', addTask);
